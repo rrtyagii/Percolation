@@ -5,3 +5,8 @@ Here, modelling a percolation system using an n-by-n grid of sites. Each site is
 In a famous scientific problem, researchers are interested in the following question: if sites are independently set to be open with probability p (and therefore blocked with probability 1 − p). When p equals 0, the system does not percolate; when p equals 1, the system percolates. When n is sufficiently large, there is a threshold value p* such that when p < p* a random n-by-n grid almost never percolates, and when p > p*, a random n-by-n grid almost always percolates. No mathematical solution for determining the percolation threshold p* has yet been derived.
 
 To estimate the percolation Threshold, I used **Monte Carlo Simulation** . By repeating the computation experiment and averaging the results, obtained is a more accurate estimate of the percolation threshold. 
+
+## WHAT I LEARNT
+- Union Find Data Structure with its different implementations to improve the time complexity and memory management. 
+- Better Exception Handling
+
